@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  border: 1px solid lightgrey;
+  width: 85%;
+  min-height: 60%;
+  margin: 40px auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.header {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 10px;
+}
+.header-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+.header-icon {
+  padding-right: 20px;
+}
+.icon {
+  color: royalblue;
+}
+.header-address button {
+  color: white;
+}
+.header-address button:hover {
+  color: white;
+}
+
+.bars {
+  color: white;
+  border: 0;
+}
+.bars:focus {
+  outline: none;
+  border: 0;
+}
+.nav-item {
+  font-weight: 700;
+}
+.nav-item button {
+  margin-left: 20px;
+}
+.nav-item button a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-item button a:hover {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+.navbar-brand {
+  font-weight: 700;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+.background-img {
+  background-image: url('/images/bg-img.jpeg');
+  width: 100%;
+  height: 300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.background-img::before {
+  content: '';
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+}
+.background-img h3 {
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  color: white;
+}
+.background-img button {
+  position: absolute;
+  top: 55%;
+  left: 50px;
+  color: white;
+}
+.background-img button:hover {
+  position: absolute;
+  top: 55%;
+  left: 50px;
+  color: white;
+}
+.background-img div {
+  width: 5px;
+  height: 35px;
+  background-color: rgb(240, 181, 73);
+  position: absolute;
+  top: 40%;
+  left: 35px;
+}
+.form {
+  width: 41%;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+}
+.form:focus {
+ outline: none;
+}
+.form::placeholder {
+  padding-left: 10px;
+}
+.form-1 {
+  width: 83%;
+  border-radius: 5px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+}
+.form-1:focus {
+  outline: none;
+}
+.form-1::placeholder {
+  padding-left: 10px;
+}
+.form-button {
+  margin: 10px;
+}
+.form-image {
+  width: 95%;
+  height: 300px;
+  margin: 10px auto 0 auto;
+}
+.row h4 {
+  padding-top: 60px;
+  padding-left: 10px;
+  position: relative;
+}
+.row h4 span {
+  color: orange;
+}
+.row h4::after {
+  content: '';
+  width: 90px;
+  height: 5px;
+  background-color: royalblue;
+  position: absolute;
+  top: 95px;
+  left: 10px;
+}
+.form-icons {
+  padding-top: 30px;
+}
+.form-icon {
+  color: orange;
+  padding-right: 5px;
+  font-size: large;
+}
+.form-icon-map {
+  color: orange;
+  padding-right: 5px;
+  font-size: large;
+}
+.address {
+  padding: 10px;
+}
+.form-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-left: 0;
+}
+.form-img {
+  width: 30px;
+  cursor: pointer;
+}
+.form-images h6 {
+  font-weight: 700;
+}
+.partners {
+  width: 100%;
+  min-height: 250px;
+  background-color: lightgray;
+}
+.partners h4 {
+  text-align: center;
+  padding-top: 50px;
+  color: rgb(2, 2, 48);
+}
+.partners h4 span {
+  color: orange;
+  position: relative;
+}
+.partners h4 span::after {
+  content: '';
+  width: 80px;
+  height: 5px;
+  background-color: royalblue;
+  position: absolute;
+  top: 100%;
+  left: 5px;
+}
+.partners p {
+  text-align: center;
+}
+.partners-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box {
+  width: 70px;
+  height: 70px;
+  background: white;
+  margin: 20px;
+}
+.subscribe {
+  width: 70%;
+  height: 80px;
+  background-color: rgb(9, 114, 184);
+  margin: 40px auto 0 auto;
+  border-radius: 10px;
+}
+.sub-text {
+  padding: 20px;
+  color: white;
+}
+.sub-text p {
+  font-weight: 700;
+}
+.sub-form {
+  width: 250px;
+}
+.footer {
+  background-color: rgb(14, 69, 105);
+  padding-top: 150px;
+  width: 100%;
+  min-height: 400px;
+  color: white;
+  padding-right: 80px;
+}
+.footer-heading {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.footer-link {
+  color: white;
+}
+.footer-link:hover {
+  color: white;
+  text-decoration: none;
+}
+.footer-logo {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+.footer-icon {
+  font-size: small;
+  cursor: pointer;
+  color: white;
+}
+.footer-icon:hover {
+  font-size: small;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.footer hr {
+  background-color: grey;
+  width: 100%;
+  margin-top: 80px;
+}
